@@ -1,0 +1,43 @@
+/* variabili */
+
+:root {
+  --ag-bg-color-green: #083b4c;
+  --ag-bg-color-blue: #1389b2;
+  --ag-bg-color-watergreen: #0cd6a1;
+  --ag-bg-color-yellow: #ffd166;
+  --ag-bg-color-pink: #f0466f;
+}
+
+/* colore del body */
+body {
+  background-color: var(--ag-bg-color-green);
+}
+
+/* grandezza font titolo */
+body h1 {
+  font-size: 80px;
+}
+
+/* box che contiene il contenuto dei li */
+.box {
+  height: 110px;
+  width: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--ag-bg-color-blue);
+}
+
+/* classi colori */
+.bg-color-fizzbuzz {
+  background-color: var(--ag-bg-color-pink);
+}
+
+.bg-color-fizz {
+  background-color: var(--ag-bg-color-watergreen);
+}
+
+.bg-color-buzz {
+  background-color: var(--ag-bg-color-yellow);
+}
+/* /classi colori */

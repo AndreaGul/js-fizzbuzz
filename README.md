@@ -25,10 +25,15 @@ creiamo nell'contenitore un elemento ul con classe list
 
 nel js ci richiamiamo l'ul con classe list
 
-6 nel loop ci creiamo una variabile che ad ogni iterazione andra a inserire una li nell'ul
+nel loop ci creiamo una variabile che ad ogni iterazione andra a inserire una li nell'ul
 
-7 nel loop ci andiamo a creare una variabile che conterra le condizioni della consegna e verra inserita nell'elemento li ad ogni iterazione
+nel loop ci andiamo a creare una variabile che conterra le condizioni della consegna e verra inserita nell'elemento li ad ogni iterazione
 
 BONUS 2:
 Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda che il valore inserito sia un numero, un fizz, un buzz o un fizzbuzz. Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot fornito in consegna.
+
+creiamo un contenitore che al suo interno avra il contenuto di li e questo contenitore sarà inserito come classe della li
+
+all'interno delle condizioni tramite classList.add aggiungiamo agli specifici box una classe che permetto al background di cambiare colore
+
 Ricordate: il primo push dovrà essere un file README.md (potete scrivere testo senza concentrarvi sullo stile markdown) contenente la risoluzione dell’esercizio in linguaggio naturale!
