@@ -4,7 +4,7 @@ const elementUl = document.querySelector('ul.list');
 
 // 1 Creo un loop dove ad ogni iterazione il valore della varibile i che andiamo a definire aumentera di 1.
 
-for (let i = 1; i < 101; i++) {
+for (let i = 1; i <= 100; i++) {
   //dichiaro una variabile che nelle condizioni sarà definita
   let statoI;
 
