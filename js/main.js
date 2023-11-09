@@ -46,7 +46,7 @@ for (let i = 1; i <= 100; i++) {
   }
 
   //nella lista andiamo a inserire i vari risultati dati dalle condizioni
-  li.innerHTML = `<span> ${statoI}</span>`;
+  li.append(statoI);
 
   //che andiamo ad appendere alla lista che è presente nel nostro dom
   elementUl.append(li);
